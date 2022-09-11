@@ -1,10 +1,9 @@
 package com.example.javaservlet.ques2;
 
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
-
-import java.io.IOException;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.*;
+import jakarta.servlet.annotation.*;
+import java.io.*;
 
 @WebServlet(name = "TableServlet", value = "/TableServlet")
 public class TableServlet extends HttpServlet {
