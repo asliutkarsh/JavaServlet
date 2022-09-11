@@ -1,11 +1,9 @@
 package com.example.javaservlet.ques3;
 
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
-
-import java.io.IOException;
-import java.io.PrintWriter;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.*;
+import jakarta.servlet.annotation.*;
+import java.io.*;
 import java.util.Date;
 
 
