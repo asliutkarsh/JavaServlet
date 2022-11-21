@@ -18,8 +18,8 @@ public class SecondHiddenServlet extends HttpServlet {
         out.print("Hello "+name);
         out.print("<br/>");
 
-        //String address=request.getParameter("uaddress");
-        //out.println("Your Address "+address);
+        String address=request.getParameter("uaddress");
+        out.println("Your Address "+address);
 
         out.close();
     }
