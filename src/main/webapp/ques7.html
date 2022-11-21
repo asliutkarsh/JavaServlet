@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 7</title>
+</head>
+<body>
+    <form action="SevenServlet" method="get">
+        <label for="principal" >Enter Principal</label>
+        <input type="number" name="principal" id="principal" placeholder="Enter Principal" required=""><br>
+        <label for="rate">Enter Anually Rate</label>
+        <input type="number" name="rate" id="rate" placeholder="Enter Anually Rate" required=""><br>
+        <label for="time">Time in Year</label>
+        <input type="number" name="time" id="time" placeholder="Enter Time" required=""><br>
+        <h3>What To Calculate ?</h3>
+        <input type="radio" id="si" name="choice" value="si" required>
+        <label for="si">Simple Interest</label><br>
+        <input type="radio" id="ci" name="choice" value="ci">
+        <label for="ci">Compound Interest</label><br>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>

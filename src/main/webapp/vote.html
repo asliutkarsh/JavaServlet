@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vote</title>
+</head>
+<body>
+<form>
+    <div align="center">
+        <h3>Whom to Vote?</h3>
+        <form action="VoteServlet" method="get">
+            &nbsp;
+            <input type="radio" id="nm" name="choice" value="nm" required>
+            <label for="nm">Narendra Modi</label><br>
+            <input type="radio" id="rh" name="choice" value="rh" >
+            <label for="rh">Rahul Gandhi</label><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="nota" name="choice" value="nota">
+            <label for="nota">None of the above</label><br><br>
+            <input type="submit" value="Vote">
+        </form>
+    </div>
+</form>
+</body>
+</html>

@@ -17,10 +17,10 @@ public class FirstHiddenServlet extends HttpServlet {
 
         String name=request.getParameter("userName");
         out.print("Welcome "+name);
-        //String address = request.getParameter("address");
+        String address = request.getParameter("address");
         out.print("<form action='SecondHiddenServlet'>");
         out.print("<input type='hidden' name='uname' value='"+name+"'>");
-        //out.print("<input type='hidden' name='uaddress' value='"+address+"'>");
+        out.print("<input type='hidden' name='uaddress' value='"+address+"'>");
         out.print("<input type='submit' value='go'>");
         out.print("</form>");
         out.close();
